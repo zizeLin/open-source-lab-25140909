@@ -1,0 +1,2 @@
+# Python standard library only.
+# External tool paths are documented in TOOL_PATHS.md.

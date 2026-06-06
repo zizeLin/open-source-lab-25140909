@@ -1,0 +1,5 @@
+{
+  "vuln_type": "stack_buffer_overflow",
+  "location": "0x401382 (__strcpy_chk sink in main-like function starting at 0x401264)",
+  "cause": "stdin data read by fgets into the stack buffer at rsp+0x20 can be up to 0x80 bytes and is later copied with __strcpy_chk into a 0x10-byte stack object at rsp."
+}
